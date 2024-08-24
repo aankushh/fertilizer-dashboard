@@ -1,0 +1,28 @@
+/* Top Fertilizers Styles */
+.fertilizer-heading {
+  color: #143a56;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.fertilizer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fertilizer-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.fertilizer-item:hover {
+  background-color: #e0e0e0;
+}
