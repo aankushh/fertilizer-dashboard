@@ -2,7 +2,7 @@ import React from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-import "./Table.css"; // Assuming you create a Table.css for custom styles
+import "./Table.css";
 
 const Table = ({ rowData }) => {
   const columnDefs = [
